@@ -4,7 +4,7 @@ stages {
 stage('Checkout') {
 steps {
 checkout scmGit(branches: [[name: '*/master']], extensions: [],
-userRemoteConfigs: [[url: 'https://github.com/pobbas/sample']])
+userRemoteConfigs: [[url: 'https://github.com/pobbas/todo']])
 echo 'successful checkout'
 }
 }
